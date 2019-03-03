@@ -28,8 +28,12 @@ grub-install /dev/sda
 <code>
 exit &&
 sudo umount /mnt/sys &&
+
 sudo umount /mnt/proc &&
+
 sudo umount /mnt/dev/pts &&
+
 sudo umount /mnt/dev &&
+
 sudo umount /mnt
 </code>
