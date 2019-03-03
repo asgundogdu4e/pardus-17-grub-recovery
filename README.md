@@ -2,7 +2,8 @@
 
 
 ## Pardus'un(versiyon 17) (Debian 9) 1. sata diskte kurulu olduğunu ve boot için ayrı bir bölüm olmadığını kabul ediyoruz.
-
+## Disk yapısı aşağıdaki şekildedir:
+![Disk Bölümleri](disk-bolumleri.png)
 <code>
 sudo mount /dev/sda1 /mnt 
 
